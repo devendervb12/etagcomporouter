@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="smax.etag.COMPROUTE.controller.ProductDetail" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Product Details">
+		<content>
+	       <VBox>
+	         <items>
+	            <Text text="{ProductID}"/>
+	            <Text text="{Name}"/>
+	            <Text text="{Category}"/>
+	            <Text text="{Description}"/>
+	         </items>
+	       </VBox>
+		</content>
+	</Page>
+</core:View>
